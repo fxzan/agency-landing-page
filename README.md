@@ -1,4 +1,4 @@
-# Amplidia - Agency Site
+# Amplidia - Agency Landing Page
 https://fxzan.github.io/agency-landing-page/  
 
 ### A landing page built using just HTML and CSS. No JavaScript.
