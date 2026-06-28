@@ -459,7 +459,24 @@
         <p>
           Tell us what you're working on - we'll respond within 48 hours.
         </p>
-        <a href="https://github.com/fxzan" target="_blank" rel="noopener noreferrer" class="btn btn-primary animate-pulse-accent">Get in touch</a>
+
+        <input type="checkbox" id="contact-toggle" />
+        <label for="contact-toggle" target="_blank" rel="noopener noreferrer" class="btn btn-primary animate-pulse-accent">Get in touch</label>
+        
+        <!--------------------------------------------- Form ------------------------------------------------------->
+        <form id="c-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="47d46888-a4e3-47e8-a60d-d807e5ccd770">
+          <label for="contact-name" class="body-sm">Name</label>
+          <input id="contact-name" name="name" type="text" class="body-lg" placeholder="John Smith" />
+
+          <label for="contact-email" class="body-sm">Email</label>
+          <input id="contact-email" name="email" type="email" class="body-lg" placeholder="john@email.com" />
+
+          <label for="contact-message" class="body-sm">Message</label>
+          <textarea id="contact-message" name="message" rows="4" class="body-lg" placeholder="Tell us what you're working on..."></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </section>
   </main>

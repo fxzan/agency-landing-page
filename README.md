@@ -14,6 +14,7 @@ https://fxzan.github.io/agency-landing-page/
 - Features grid with hover card effects
 - Portfolio section with CSS-only carousel using scroll snap
 - CTA section with a pulsing button animation
+- Contact form that drops down when CTA button is clicked
 - Footer with multi-column link layout
 - Responsive design - fully responsive at breakpoints
 
