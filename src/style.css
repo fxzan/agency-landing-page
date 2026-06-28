@@ -587,11 +587,6 @@ h4 {
   margin-bottom: 0.75rem;
 }
 
-.h-captcha {
-  align-self: center;
-  margin-top: 0.5rem;
-}
-
 /* ------------------- Footer ------------------ */
 footer {
   background-color: var(--color-page-bg);
